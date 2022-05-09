@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D1D6AD"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginBottom="10dp"
+            android:text="Dış Görünüş"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/txtOylaDisGorunus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:inputType="numberSigned"
+            android:textColorHint="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearl2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearl1"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="10dp"
+            android:text="Saygı"
+            android:layout_marginEnd="210dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/txtOylaSaygi"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#D1D6AD"
+            android:textColor="@color/black"
+            android:inputType="numberSigned"
+            android:textColorHint="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearl3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearl2"
+        android:background="#D1D6AD"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="10dp"
+            android:text="Sadakat"
+            android:layout_marginEnd="187dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/txtOylaSadakat"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:inputType="numberSigned"
+            android:textColorHint="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearl4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearl3"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="10dp"
+            android:text="Çapkınlık"
+            android:layout_marginEnd="178dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/txtOylaCapkinlik"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#D1D6AD"
+            android:textColor="@color/black"
+            android:inputType="numberSigned"
+            android:textColorHint="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearl5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D1D6AD"
+
+        android:layout_below="@id/linearl4"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="10dp"
+            android:text="Güç"
+            android:layout_marginEnd="225dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/txtOylaGuc"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:inputType="numberSigned"
+            android:textColorHint="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearl6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearl5"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="10dp"
+            android:text="Çalışkanlık"
+            android:layout_marginEnd="163dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/txtOylaCaliskanlik"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#D1D6AD"
+            android:textColor="@color/black"
+            android:inputType="numberSigned"
+            android:textColorHint="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearl7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearl6"
+        android:background="#D1D6AD"
+
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="10dp"
+            android:text="Zeka"
+            android:layout_marginEnd="217dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/txtOylaZeka"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:inputType="numberSigned"
+            android:textColorHint="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearl8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearl7"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="10dp"
+            android:text="Hayvan Sevgisi"
+            android:layout_marginEnd="126dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/txtOylaHayvanSevgisi"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#D1D6AD"
+            android:textColor="@color/black"
+            android:inputType="numberSigned"
+            android:textColorHint="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearl9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D1D6AD"
+
+        android:layout_below="@id/linearl8"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="10dp"
+            android:text="Takım Uyumu"
+            android:layout_marginEnd="139dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/txtOylaTakimUyumu"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:inputType="numberSigned"
+            android:textColorHint="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearl10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearl9"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="10dp"
+            android:text="Haysiyet"
+            android:layout_marginEnd="184dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/txtOylaHaysiyet"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#D1D6AD"
+            android:textColor="@color/black"
+            android:inputType="numberSigned"
+            android:textColorHint="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearl11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearl10"
+        android:paddingTop="10dp">
+        <Button
+            android:id="@+id/btnOylamayiKaydet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/teal_700"
+            android:text="OYLAMAYI KAYDET"
+            android:textColor="@color/white"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linearl11"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/kisiye_hatasi_soylenmesse"
+        >
+    </RelativeLayout>
+</RelativeLayout>
